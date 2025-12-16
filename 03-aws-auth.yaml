@@ -10,7 +10,7 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
-      - roboshop-trainee # we given in rolebinding this name
+      - roboshop-trainee # we given in role  this name
       userarn: arn:aws:iam::319255955334:user/vignesh
       username: vignesh    
 kind: ConfigMap
@@ -18,5 +18,4 @@ metadata:
   creationTimestamp: "2025-12-16T04:53:38Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1178"
   uid: a516bfd2-0044-490a-a8a0-be78563e97b8
