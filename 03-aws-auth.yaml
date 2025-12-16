@@ -13,6 +13,11 @@ data:
       - roboshop-trainee # we given in role  this name
       userarn: arn:aws:iam::319255955334:user/vignesh
       username: vignesh    
+
+    - groups:
+      - roboshop-admin # we given in role  this name
+      userarn: arn:aws:iam::319255955334:user/ramesh
+      username: ramesh  
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-12-16T04:53:38Z"
