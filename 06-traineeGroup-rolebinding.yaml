@@ -5,7 +5,7 @@ metadata:
   namespace: roboshop
 subjects:
 # You can specify more than one "subject"
-- kind: Group # here changes to group
+- kind: Group # here changes to group from USER now going with gropups
   name: roboshop-trainee # "name" is case sensitive same as our role name
   apiGroup: rbac.authorization.k8s.io
 roleRef:

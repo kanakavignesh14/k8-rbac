@@ -20,3 +20,5 @@ rules:
 - apiGroups: [""] # "" indicates the core API group
   resources: ["persistentvolumes"]
   verbs: ["get", "list", "watch"]
+
+  #here giving 2 resourses as cluster level permission to admin ramesh here
